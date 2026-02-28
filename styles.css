@@ -109,6 +109,24 @@ body {
     gap: 20px;
 }
 
+.web3-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hero-forweb3page {
+    padding: 30px;
+    width: 700px;
+    height: 1000px;
+    background-color: #0f0f0f;
+    margin: 50px;
+    color: #f3f3f3;
+    text-align: center;
+    border: 3px solid #282828;
+    border-radius: 20px;
+}
+
 .hero-foraboutpage1 {
     padding: 30px;
     width: 450px;
