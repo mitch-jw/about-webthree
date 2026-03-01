@@ -118,11 +118,23 @@ body {
 .hero-forweb3page {
     padding: 30px;
     width: 700px;
-    height: 1000px;
+    height: 1100px;
     background-color: #0f0f0f;
     margin: 50px;
     color: #f3f3f3;
     text-align: center;
+    border: 3px solid #282828;
+    border-radius: 20px;
+}
+
+.hero-forweb3page2 {
+    padding: 30px;
+    width: 700px;
+    height: 1300px;
+    background-color: #0f0f0f;
+    margin: 50px;
+    color: #f3f3f3;
+    text-align: left;
     border: 3px solid #282828;
     border-radius: 20px;
 }
@@ -156,6 +168,16 @@ body {
     justify-content: center;
     margin: 15px;
     font-size: x-large;
+    background-image: linear-gradient(to right, #26adab 0%, #42a4ce 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.herotitle2 {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    font-size: xx-large;
     background-image: linear-gradient(to right, #26adab 0%, #42a4ce 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -199,4 +221,44 @@ ol {
             #10b981,
             #065f46
         ) border-box;
+}
+
+
+/* Table Styling */
+
+.web3-table {
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 25px auto;
+    font-size: 0.9em;
+    min-width: 400px;
+    table-layout: fixed;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 3px solid #246255;
+}
+
+.web3-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: center;
+    border: 3px solid #246255;
+    font-weight: bold;
+    overflow: hidden;
+}
+
+.web3-table th, 
+.web3-table td {
+    padding: 12px 15px;
+    width: 25%;
+}
+
+.web3-table tbody tr {
+    border-bottom: 1px solid #282828;
+    color: #ffffff;
+    text-align: center;
+}
+
+.web3-table tbody tr:nth-of-type(even) {
+    background-color: #1a1a1a;
 }
